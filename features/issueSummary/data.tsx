@@ -1,0 +1,156 @@
+import React from "react";
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from "recharts";
+import { BugReport as BugReportIcon, CheckCircle as CheckCircleIcon, HighlightOff as HighlightOffIcon } from "@mui/icons-material";
+import { IssueSummaryProps } from "./Interface";
+
+
+
+export const data: IssueSummaryProps[] = [
+  {
+    date: "Monday",
+    status: "Fixed",
+    title: "Fixed Issues",
+    count: "123 issues fixed",
+    icon: <CheckCircleIcon color="success" />,
+  },
+  {
+    date: "Monday",
+    status: "Closed",
+    title: "Closed Issues",
+    count: "100 issues closed",
+    icon: <HighlightOffIcon color="error" />,
+  },
+  {
+    date: "Monday",
+    status: "New",
+    title: "New Issues",
+    count: "77 new issues reported",
+    icon: <BugReportIcon color="warning" />,
+  },
+  {
+    date: "Tuesday",
+    status: "Fixed",
+    title: "Fixed Issues",
+    count: "80 issues fixed",
+    icon: <CheckCircleIcon color="success" />,
+  },
+  {
+    date: "Tuesday",
+    status: "Closed",
+    title: "Closed Issues",
+    count: "60 issues closed",
+    icon: <HighlightOffIcon color="error" />,
+  },
+  {
+    date: "Tuesday",
+    status: "New",
+    title: "New Issues",
+    count: "30 new issues reported",
+    icon: <BugReportIcon color="warning" />,
+  },
+  {
+    date: "Wednesday",
+    status: "Fixed",
+    title: "Fixed Issues",
+    count: "105 issues fixed",
+    icon: <CheckCircleIcon color="success" />,
+  },
+  {
+    date: "Wednesday",
+    status: "Closed",
+    title: "Closed Issues",
+    count: "90 issues closed",
+    icon: <HighlightOffIcon color="error" />,
+  },
+  {
+    date: "Wednesday",
+    status: "New",
+    title: "New Issues",
+    count: "50 new issues reported",
+    icon: <BugReportIcon color="warning" />,
+  },
+  {
+    date: "Thursday",
+    status: "Fixed",
+    title: "Fixed Issues",
+    count: "120 issues fixed",
+    icon: <CheckCircleIcon color="success" />,
+  },
+  {
+    date: "Thursday",
+    status: "Closed",
+    title: "Closed Issues",
+    count: "110 issues closed",
+    icon: <HighlightOffIcon color="error" />,
+  },
+  {
+    date: "Thursday",
+    status: "New",
+    title: "New Issues",
+    count: "60 new issues reported",
+    icon: <BugReportIcon color="warning" />,
+  },
+  {
+    date: "Friday",
+    status: "Fixed",
+    title: "Fixed Issues",
+    count: "130 issues fixed",
+    icon: <CheckCircleIcon color="success" />,
+  },
+  {
+    date: "Friday",
+    status: "Closed",
+    title: "Closed Issues",
+    count: "100 issues closed",
+    icon: <HighlightOffIcon color="error" />,
+  },
+  {
+    date: "Friday",
+    status: "New",
+    title: "New Issues",
+    count: "75 new issues reported",
+    icon: <BugReportIcon color="warning" />,
+  },
+  {
+    date: "Saturday",
+    status: "Fixed",
+    title: "Fixed Issues",
+    count: "110 issues fixed",
+    icon: <CheckCircleIcon color="success" />,
+  },
+  {
+    date: "Saturday",
+    status: "Closed",
+    title: "Closed Issues",
+    count: "90 issues closed",
+    icon: <HighlightOffIcon color="error" />,
+  },
+  {
+    date: "Saturday",
+    status: "New",
+    title: "New Issues",
+    count: "65 new issues reported",
+    icon: <BugReportIcon color="warning" />,
+  },
+  {
+    date: "Sunday",
+    status: "Fixed",
+    title: "Fixed Issues",
+    count: "100 issues fixed",
+    icon: <CheckCircleIcon color="success" />,
+  },
+  {
+    date: "Sunday",
+    status: "Closed",
+    title: "Closed Issues",
+    count: "80 issues closed",
+    icon: <HighlightOffIcon color="error" />,
+  },
+  {
+    date: "Sunday",
+    status: "New",
+    title: "New Issues",
+    count: "40 new issues reported",
+    icon: <BugReportIcon color="warning" />,
+  },
+];
